@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Log In Page</title>
+</head>
+<body>
+    <form>
+   <fieldset>
+   <h3>Log In: </h3> 
+   <br>
+   <h4>Username: <input type="email" id="username" placeholder="Enter username" required></h4>
+   <br>
+   <h4>Password: <input type="password" id="password" placeholder="Enter password" required></h4>
+   <h4 id="loginError"></h4>
+   <button type="submit" onclick="validateLoginPassword()">Submit</button>
+   </fieldset> 
+   <br>
+   <fieldset>
+   <a href="forgot-password.html">Forgot Password</a>
+   <br><br>
+   <a href="signup.html">   Sign Up</a>
+   </fieldset>
+</form>
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <fieldset>
+        <h3>Sign Up: </h3>
+        <br>
+        <form>
+            <h4>E-mail: </h4>
+            <input type="email" id="email" placeholder="Enter your E-mail" required>
+            <h4>Password: </h4>
+            <input type="password" id="password" placeholder="Enter your Password" required>
+            <h4>Confirm Password: </h4>
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            <h4 id="signUpError"></h4> 
+            <h3>Additional Inputs: </h3>
+            <h4>Lastname: <input type="text" id="lastname" placeholder="Enter your lastname" required></h4>
+            <h4>Firstname: <input type="text" id="firstname" placeholder="Enter your firstname" required></h4>
+            <h4>Middle Initial: <input type="text" id="middleInitial" placeholder="Enter your middle initial" required></h4>
+            <button type="submit" onclick="validateSignUpForm()">Sign Up</button>
+        </form>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+</html>
